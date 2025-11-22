@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- Aquí se renderiza la vista activa -->
+    <router-view />
   </div>
 </template>
-<script>export default { name: 'App' }</script>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
